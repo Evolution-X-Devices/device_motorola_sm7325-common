@@ -238,7 +238,8 @@ PRODUCT_COPY_FILES += \
 # Moto hardware
 PRODUCT_PACKAGES += \
     MotoActions \
-    MotoCommonOverlay
+    MotoCommonOverlay \
+    TurboPowerOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
