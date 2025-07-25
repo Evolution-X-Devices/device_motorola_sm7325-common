@@ -421,4 +421,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/motorola/sm7325-common/sm7325-common-vendor.mk)
+$(call inherit-product, vendor/motorola/sm8350-common/sm8350-common-vendor.mk)

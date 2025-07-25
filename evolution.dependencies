@@ -5,8 +5,8 @@
     "remote": "evo-devices"
   },
   {
-    "repository": "kernel_motorola_sm7325",
-    "target_path": "kernel/motorola/sm7325",
+    "repository": "kernel_motorola_sm8350",
+    "target_path": "kernel/motorola/sm8350",
     "remote": "evo-devices"
   },
   {
@@ -52,8 +52,8 @@
     "branch": "android-15"
   },
   {
-    "repository": "Deivid-21s-Sources/proprietary_vendor_motorola_sm7325-common",
-    "target_path": "vendor/motorola/sm7325-common",
+    "repository": "Deivid-21s-Sources/proprietary_vendor_motorola_sm8350-common",
+    "target_path": "vendor/motorola/sm8350-common",
     "remote": "github-non-los",
     "branch": "lineage-23.2"
   }

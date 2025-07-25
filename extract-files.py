@@ -19,7 +19,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/motorola/sm7325-common',
+    'device/motorola/sm8350-common',
     'hardware/motorola',
     'hardware/qcom-caf/sm8350',
     'hardware/qcom-caf/wlan',
@@ -67,7 +67,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'sm7325-common',
+    'sm8350-common',
     'motorola',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
