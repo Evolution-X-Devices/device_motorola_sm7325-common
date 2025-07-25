@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_PATH := device/motorola/sm7325-common
+COMMON_PATH := device/motorola/sm8350-common
 
 # Architecture
 TARGET_ARCH := arm64
@@ -40,7 +40,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_NO_GCC := true
-TARGET_KERNEL_SOURCE := kernel/motorola/sm7325
+TARGET_KERNEL_SOURCE := kernel/motorola/sm8350
 TARGET_KERNEL_CONFIG := vendor/lahaina-qgki_defconfig vendor/lineage_moto-lahaina.config
 
 # Platform
@@ -170,4 +170,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
-include vendor/motorola/sm7325-common/BoardConfigVendor.mk
+include vendor/motorola/sm8350-common/BoardConfigVendor.mk
